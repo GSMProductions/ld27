@@ -1,15 +1,29 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class LDInputControler : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
+	public GameObject global;
+	private CharacterMotor motor;
+
+	void Start () 
+		{
+		motor = GetComponent<CharacterMotor>();
+		}
+
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
+
+		if(global.GetComponent<clock>().who == clock.turn.player)
+			{
+			motor.canControl = true;
+			}
+		else
+			{
+			motor.canControl = false;
+			}
+		}
 }
+
+

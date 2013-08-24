@@ -11,7 +11,11 @@
 /sources/Library/ScriptAssemblies
 /sources/obj
 /sources/Temp
-AssetServerCacheV3
+*AssetServerCacheV3
+/sources/Library/assetDatabase3
 InspectorExpandedItems.asse
 assetDatabase3
 guidmapper
+*InspectorExpandedItems.asse
+*assetDatabase3
+*guidmapper

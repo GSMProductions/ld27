@@ -40,4 +40,8 @@ public class clock : MonoBehaviour {
 			who = turn.enemy;
 		}
 
+	public float getTime()
+		{
+		return timer;
+		}
 }
