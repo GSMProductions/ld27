@@ -4,9 +4,9 @@
 *.pidb
 *.unityproj
 .DS_Store
-/Library/FailedAssetImports.txt
-/Library/cache/
-/Library/previews/
-/Library/ScriptAssemblies
-/obj
-/Temp
+/sources/Library/FailedAssetImports.txt
+/sources/Library/cache/
+/sources/Library/previews/
+/sources/Library/ScriptAssemblies
+/sources/obj
+/sources/Temp
