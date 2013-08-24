@@ -3,6 +3,7 @@
 *.csproj
 *.pidb
 *.unityproj
+*.psd
 .DS_Store
 /sources/Library/FailedAssetImports.txt
 /sources/Library/cache/
@@ -11,6 +12,7 @@
 /sources/obj
 /sources/Temp
 AssetServerCacheV3
+/sources/Library/assetDatabase3
 InspectorExpandedItems.asse
 assetDatabase3
 guidmapper
