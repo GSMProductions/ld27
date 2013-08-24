@@ -38,6 +38,25 @@ ModelImporter:
     100064: Plane_030
     100066: Plane_031
     100068: Plane_032
+    100070: Plane_033
+    100072: Plane_034
+    100074: Plane_035
+    100076: Plane_036
+    100078: Plane_037
+    100080: Plane_038
+    100082: Plane_039
+    100084: Cylinder
+    100086: Plane_040
+    100088: Cylinder_001
+    100090: Plane_041
+    100092: Plane_042
+    100094: Plane_043
+    100096: Plane_044
+    100098: Plane_045
+    100100: Plane_046
+    100102: Plane_047
+    100104: Plane_048
+    100106: Plane_049
     400000: //RootNode
     400002: Plane
     400004: Plane_001
@@ -73,6 +92,25 @@ ModelImporter:
     400064: Plane_030
     400066: Plane_031
     400068: Plane_032
+    400070: Plane_033
+    400072: Plane_034
+    400074: Plane_035
+    400076: Plane_036
+    400078: Plane_037
+    400080: Plane_038
+    400082: Plane_039
+    400084: Cylinder
+    400086: Plane_040
+    400088: Cylinder_001
+    400090: Plane_041
+    400092: Plane_042
+    400094: Plane_043
+    400096: Plane_044
+    400098: Plane_045
+    400100: Plane_046
+    400102: Plane_047
+    400104: Plane_048
+    400106: Plane_049
     2300000: Plane
     2300002: Plane_001
     2300004: Plane_002
@@ -107,6 +145,25 @@ ModelImporter:
     2300062: Plane_030
     2300064: Plane_031
     2300066: Plane_032
+    2300068: Plane_033
+    2300070: Plane_034
+    2300072: Plane_035
+    2300074: Plane_036
+    2300076: Plane_037
+    2300078: Plane_038
+    2300080: Plane_039
+    2300082: Cylinder
+    2300084: Plane_040
+    2300086: Cylinder_001
+    2300088: Plane_041
+    2300090: Plane_042
+    2300092: Plane_043
+    2300094: Plane_044
+    2300096: Plane_045
+    2300098: Plane_046
+    2300100: Plane_047
+    2300102: Plane_048
+    2300104: Plane_049
     3300000: Plane
     3300002: Plane_001
     3300004: Plane_002
@@ -141,6 +198,25 @@ ModelImporter:
     3300062: Plane_030
     3300064: Plane_031
     3300066: Plane_032
+    3300068: Plane_033
+    3300070: Plane_034
+    3300072: Plane_035
+    3300074: Plane_036
+    3300076: Plane_037
+    3300078: Plane_038
+    3300080: Plane_039
+    3300082: Cylinder
+    3300084: Plane_040
+    3300086: Cylinder_001
+    3300088: Plane_041
+    3300090: Plane_042
+    3300092: Plane_043
+    3300094: Plane_044
+    3300096: Plane_045
+    3300098: Plane_046
+    3300100: Plane_047
+    3300102: Plane_048
+    3300104: Plane_049
     4300000: Plane_013
     4300002: Plane_012
     4300004: Plane_011
@@ -175,6 +251,25 @@ ModelImporter:
     4300062: Plane_028
     4300064: Plane_032
     4300066: Plane_031
+    4300068: Plane_034
+    4300070: Plane_033
+    4300072: Plane_035
+    4300074: Plane_037
+    4300076: Plane_036
+    4300078: Plane_039
+    4300080: Plane_038
+    4300082: Cylinder
+    4300084: Plane_040
+    4300086: Plane_046
+    4300088: Plane_045
+    4300090: Plane_044
+    4300092: Plane_043
+    4300094: Cylinder_001
+    4300096: Plane_042
+    4300098: Plane_041
+    4300100: Plane_049
+    4300102: Plane_048
+    4300104: Plane_047
     6400000: Plane
     6400002: Plane_001
     6400004: Plane_002
@@ -209,6 +304,25 @@ ModelImporter:
     6400062: Plane_030
     6400064: Plane_031
     6400066: Plane_032
+    6400068: Plane_033
+    6400070: Plane_034
+    6400072: Plane_035
+    6400074: Plane_036
+    6400076: Plane_037
+    6400078: Plane_038
+    6400080: Plane_039
+    6400082: Cylinder
+    6400084: Plane_040
+    6400086: Cylinder_001
+    6400088: Plane_041
+    6400090: Plane_042
+    6400092: Plane_043
+    6400094: Plane_044
+    6400096: Plane_045
+    6400098: Plane_046
+    6400100: Plane_047
+    6400102: Plane_048
+    6400104: Plane_049
     7400000: Default Take
     9500000: //RootNode
   materials:
