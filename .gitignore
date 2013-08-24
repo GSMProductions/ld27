@@ -3,6 +3,7 @@
 *.csproj
 *.pidb
 *.unityproj
+*.psd
 .DS_Store
 /sources/Library/FailedAssetImports.txt
 /sources/Library/cache/
