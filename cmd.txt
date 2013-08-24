@@ -1,0 +1,10 @@
+#changement de branches
+
+git checkout nomDeBranche
+
+#ajout des données
+
+git add --all
+git commit -m "message here"
+git pull
+git push
