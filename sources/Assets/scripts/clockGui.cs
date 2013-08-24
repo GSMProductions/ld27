@@ -20,9 +20,13 @@ public class clockGui : MonoBehaviour {
 
 		time = global.GetComponent<clock>().getTime();
 		i_time = (int)(time*fps);
-	
+		
 		Texture2D tex;
-		tex = frames[i_time];
+		if(global.GetComponent<clock>().who == clock.turn.enemy)
+			tex = framesMonster[i_time];
+		else
+			tex = frames[i_time];
+
 		GameObject.Find(this.name).GetComponent<GUITexture>().texture =  tex;
 	}
 }
