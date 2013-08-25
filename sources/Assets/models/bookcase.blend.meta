@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 2eb7c146acbcb1d45a0624180e196b87
-=======
-guid: 62993a2bfbad8fb4a90166e320f1dc51
->>>>>>> Stashed changes
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -12,6 +8,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: bookcase
+    6400000: //RootNode
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -32,9 +29,9 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
-    swapUVChannels: 0
+    swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1

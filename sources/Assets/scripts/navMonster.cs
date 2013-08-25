@@ -82,6 +82,7 @@ public class navMonster : MonoBehaviour {
 						if(nSearch > 0)
 							{
 							GetComponent<NavMeshAgent>().destination =  getRandomPoint(transform.position,searchRadius);
+							nSearch-=1;
 							}
 						else
 							{
