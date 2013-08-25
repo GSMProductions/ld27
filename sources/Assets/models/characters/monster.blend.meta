@@ -69,6 +69,30 @@ ModelImporter:
     100126: toe_R
     100128: upper_arm_L
     100130: upper_arm_R
+    100132: Armature_Monster
+    100134: Bone
+    100136: Bone_001
+    100138: Bone_002
+    100140: Bone_003
+    100142: Bone_004
+    100144: Bone_005
+    100146: Bone_006
+    100148: Bone_007
+    100150: Bone_008
+    100152: Bone_009
+    100154: Bone_010
+    100156: Bone_011
+    100158: Bone_012
+    100160: Bone_013
+    100162: Bone_014
+    100164: Bone_015
+    100166: Bone_016
+    100168: Bone_017
+    100170: Bone_018
+    100172: Bone_019
+    100174: Bone_020
+    100176: Bone_021
+    100178: Bone_022
     400000: chest
     400002: f_index_01_L
     400004: f_index_01_R
@@ -135,6 +159,32 @@ ModelImporter:
     400126: toe_R
     400128: upper_arm_L
     400130: upper_arm_R
+    400132: Armature_Monster
+    400134: Bone
+    400136: Bone_001
+    400138: Bone_002
+    400140: Bone_003
+    400142: Bone_004
+    400144: Bone_005
+    400146: Bone_006
+    400148: Bone_007
+    400150: Bone_008
+    400152: Bone_009
+    400154: Bone_010
+    400156: Bone_011
+    400158: Bone_012
+    400160: Bone_013
+    400162: Bone_014
+    400164: Bone_015
+    400166: Bone_016
+    400168: Bone_017
+    400170: Bone_018
+    400172: Bone_019
+    400174: Bone_020
+    400176: Bone_021
+    400178: Bone_022
+    2300000: monster
+    3300000: monster
     4300000: monster
     7400000: Default Take
     9500000: //RootNode
