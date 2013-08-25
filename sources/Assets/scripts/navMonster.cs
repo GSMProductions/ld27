@@ -14,6 +14,7 @@ public class navMonster : MonoBehaviour {
 	public float searchRadius = 10f;
 
 	private int nSearch = 3;
+	private float radiusDead = 2.5f;
 
 	private enum state
 		{
@@ -37,7 +38,11 @@ public class navMonster : MonoBehaviour {
 	// Update is called once per frame
 	void Update() 
 		{
-		
+		if(target.GetComponent<PlayerDead>().isDead)
+			{
+			GetComponent<NavMeshAgent>().Stop();
+			return;
+			}
 		switch(status)
 			{
 			
@@ -65,6 +70,16 @@ public class navMonster : MonoBehaviour {
 				else
 					{
 					status = state.warning;
+					}
+
+				if(Mathf.Abs(Vector3.Distance(transform.position,target.transform.position)) <= radiusDead)
+					{
+					if(global.GetComponent<clock>().who == clock.turn.enemy)
+						{
+						target.GetComponent<PlayerDead>().kill();
+						status = state.walking;
+						GetComponent<NavMeshAgent>().Stop();
+						}
 					}
 				break;
 
