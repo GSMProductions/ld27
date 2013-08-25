@@ -30,6 +30,8 @@ ModelImporter:
     100048: Cube
     100050: //RootNode
     100052: Cube_001
+    100054: Armature_Monster
+    100056: monster
     400000: Armature
     400002: Bone
     400004: Bone_001
@@ -57,12 +59,18 @@ ModelImporter:
     400048: Cube
     400050: //RootNode
     400052: Cube_001
+    400054: Armature_Monster
+    400056: monster
     2300000: Cube
     2300002: Cube_001
+    2300004: monster
     3300000: Cube
     3300002: Cube_001
+    3300004: monster
     4300000: Cube
     4300002: Cube_001
+    4300004: monster
+    6400000: monster
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -83,7 +91,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
