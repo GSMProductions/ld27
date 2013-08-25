@@ -32,6 +32,7 @@ ModelImporter:
     100052: Cube_001
     100054: Armature_Monster
     100056: monster
+<<<<<<< HEAD
     100058: Head
     100060: Hips
     100062: LArm
@@ -356,6 +357,8 @@ ModelImporter:
     100700: WGT-VIS-thigh_pole_ik_R
     100702: WGT-VIS-upper_arm_pole_ik_L
     100704: WGT-VIS-upper_arm_pole_ik_R
+=======
+>>>>>>> b938f87aeb482a065250ea341581891d5ed844cc
     400000: Armature
     400002: Bone
     400004: Bone_001
@@ -385,6 +388,7 @@ ModelImporter:
     400052: Cube_001
     400054: Armature_Monster
     400056: monster
+<<<<<<< HEAD
     400058: Head
     400060: Hips
     400062: LArm
@@ -920,6 +924,18 @@ ModelImporter:
     4300164: WGT-foot_roll_ik_L
     4300168: WGT-foot_ik_L
     4300176: WGT-foot_fk_L
+=======
+    2300000: Cube
+    2300002: Cube_001
+    2300004: monster
+    3300000: Cube
+    3300002: Cube_001
+    3300004: monster
+    4300000: Cube
+    4300002: Cube_001
+    4300004: monster
+    6400000: monster
+>>>>>>> b938f87aeb482a065250ea341581891d5ed844cc
     7400000: Default Take
     7400002: Default Take0
     9500000: //RootNode
@@ -942,7 +958,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
