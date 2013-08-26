@@ -4,3 +4,4 @@ medfile_day5;Medical file Day 5;Another file...|Hope it will give me some inform
 medfile_day12;Medical file Day 12;This file is marked day 12...|(Click on <space> to read)
 medfile_day89;Medical file Day 89;Oh my god, this file is one of the last! But it's covered in blood...|(Click on <space> to read)
 torch;Toarch;This will allow you to see where you're going...|It's so dark in here...
+paper_code;This piece of paper has a code written on it...|Maybe it has something to do with the numeric pad on the front door?|Let's hope it does... I need to get out of here!
