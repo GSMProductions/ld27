@@ -14,7 +14,8 @@ public class splashScreen : MonoBehaviour {
 
 	IEnumerator DisplayScene() {
 		yield return new WaitForSeconds(timer);
-		Application.LoadLevel(levelToLoad);
+		//Application.LoadLevel(levelToLoad);
+		CameraFade.StartAlphaFade( Color.black, false, 2f, 2f, () => { Application.LoadLevel(levelToLoad); } );
 	}
 
 	// Update is called once per frame
