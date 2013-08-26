@@ -5,24 +5,25 @@ using System.Collections.Generic;
 public class inventoryControl : MonoBehaviour 
 	{
 	public GameObject guiInventory;
+	public GameObject guiFull;
 	public GameObject guiText;
 
 	public GameObject[] guiItem;
 	public Texture2D[] pictures;
+	public Texture2D[] fullPictures;
 	public TextAsset objectListText;
 
 	private int inventoryIndex = 0;
 
 	private List<string> inv = new List<string>();
 	private List<string> description = new List<string>();
+
+	private bool viewFull = false; 
 	
 	// Use this for initialization
 	void Start () {
 		SetVisible(false);
-		inv.Add("torch");
-		inv.Add("key1");
-		inv.Add("medfile_day1");
-		inv.Add("medfile_day89");
+		add("torch");
 
 		string text;
 
@@ -42,6 +43,23 @@ public class inventoryControl : MonoBehaviour
 			}
 		moveInventory(0);
 	}
+
+	int getAction(string code)
+		{
+		if("medfile_day1"==code)
+			return 0;
+
+		if("medfile_day5"==code)
+			return 1;
+
+		if("medfile_day12"==code)
+			return 2;
+
+		if("medfile_day89"==code)
+			return 3;
+
+		return -1;
+		}
 	
 	// Update is called once per frame
 	void Update () {
@@ -65,6 +83,13 @@ public class inventoryControl : MonoBehaviour
 			    // hide
 			   moveInventory(-1);
 				}
+
+			if (Input.GetKeyDown(KeyCode.Space)) 
+				{
+				if(getAction(inv[inventoryIndex])>-1)
+					guiFull.guiTexture.enabled = !guiFull.guiTexture.enabled;
+
+				}
 			}
 		else
 			{
@@ -81,7 +106,10 @@ public class inventoryControl : MonoBehaviour
 		guiInventory.guiTexture.enabled = isVisible;
 		guiText.guiText.enabled = isVisible;
 		foreach(GameObject item in guiItem)
-			item.guiTexture.enabled = isVisible;		
+			item.guiTexture.enabled = isVisible;
+
+		
+		guiFull.guiTexture.enabled = false;		
 
 		}
 		
@@ -161,10 +189,19 @@ public class inventoryControl : MonoBehaviour
 
 		guiText.guiText.text = getName(inv[index])+"\n\n"+getDescription(inv[index]);
 
-		guiItem[0].guiTexture.texture = pictures[getIndexTexture(inv[up_index])];
 		guiItem[1].guiTexture.texture = pictures[getIndexTexture(inv[index])];
-		guiItem[2].guiTexture.texture = pictures[getIndexTexture(inv[down_index])];
-		guiItem[3].guiTexture.texture = pictures[getIndexTexture(inv[down_index2])];
+
+		if(inv.Count>3)
+			guiItem[0].guiTexture.texture = pictures[getIndexTexture(inv[up_index])];
+		
+		if(inv.Count>1)
+			guiItem[2].guiTexture.texture = pictures[getIndexTexture(inv[down_index])];
+		
+		if(inv.Count>2)
+			guiItem[3].guiTexture.texture = pictures[getIndexTexture(inv[down_index2])];
+
+		if(getAction(inv[index])>-1)
+			guiFull.guiTexture.texture = fullPictures[getAction(inv[index])];
 
 		inventoryIndex = index;
 		}
@@ -172,15 +209,25 @@ public class inventoryControl : MonoBehaviour
 	public bool isInInventory(string code)
 		{
 		int index = -1;
-		for(int i=0;i<description.Count;i+=3)
+		for(int i=0;i<inv.Count;i+=1)
 			{
-			if(code == description[i])
+			if(code == inv[i])
+				{
+				Debug.Log(code);
 				index =i;
+				}
 			}
 		if(index == -1)
 			return false;
 
 		return true;
+		}
+
+	public void add(string code)
+		{
+		inv.Add(code);
+		inventoryIndex = inv.Count-1;
+		moveInventory(0);
 		}
 	}
 

@@ -1,0 +1,24 @@
+#REVEIL;
+ecran_noir;Hmmm.. where.. oh my head.. is this.. is this my room..? So dark in here..
+fade_in;Let's see, I think had a reading lamp over here.
+lumiere_allume;It is my room.. but what happened here? Everything looks.. messed up. I feel kinda weird but.. I think I can walk. I'll take a look around.
+sortie_chambre;What the hell.. What is wrong with this place.. It looks like it's been abandonned for years! But.. no way..
+coté_fenetre;Wait... I think I heard something over there...
+devant_fenetre;What... oh god! What is this thing.. This is wrong! This.. I have to get out of here! But let's be quiet, I don't want to attract the attention of that.. thing..
+#DIZZINESS;
+lumiere_vive_1;Ah! This light! Need to get away from it!
+#ACCES;
+debris;Damn, can't go through here!
+porte_fermee_impossible;This one won't budge.
+porte_fermee_clef;It's locked... maybe there's a key around here somewhere.
+porte_fermee_pad1;I need a code to unlock this..
+porte_fermee_pad2;Dammit! I need that code! I need to go!!
+#MAP;
+focus_plan;Better quickly memorize this... need to get the hell out of here!
+#FIN;
+entree_lobby;There! The front door! I made it!
+miroir;Wha... no.. this can't be me.. NO!
+#MAGNETOS;
+Magneto_1;Treatment LD27, human testing under heavy sedation, Male subject n°51, DAY 30. The whimpering has gotten worse, we are therefore pushing more anesthetics. Important body changes have been noted : muscles mass increase, bone structure distortion, especially the legs and neck.
+Magneto_2;Treatment LD27, human testing under heavy sedation, Male subject n°51, DAY 47. The unexpected effects of the treatment are expanding. The face's bone structure is now changing and arms' length is increasing. One other subject has been already awoken and seems to have lost speech ability but is able to walk even with its deformed legs. It also seems to have become allergic to vivid lights.
+Magneto_3;Treatment LD27, human testing under heavy sedation, Male subject n°51, DAY 70. The staff is experimenting difficulties with subjects 1 to 43. It's been three weeks that they have been awoken to undergo further tests, but they are now becoming more and more aggressive and stronger, even putting some of the medical staff in danger. For some, the muscle mass has tripled! Subject 51 is still under sedation, but we had the increase the dose of anesthetics as it seems to be stirring in its sleep.
