@@ -27,8 +27,6 @@ public class subtitles : MonoBehaviour {
 				}
 			}
 
-	//for test
-	display("ecran_noir",2f);
 	
 	}
 	void Update () {
