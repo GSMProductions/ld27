@@ -292,6 +292,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 724227876}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!95 &51319429
 Animator:
   m_ObjectHideFlags: 0
@@ -452,6 +453,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 1368744429}
   camScript: {fileID: 548596801}
+  pageturn: {fileID: 764027152}
 --- !u!95 &141166996
 Animator:
   m_ObjectHideFlags: 0
@@ -682,6 +684,7 @@ MonoBehaviour:
   activeAtStart: 1
   nextCard: {fileID: 1465828909}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!95 &205962759
 Animator:
   m_ObjectHideFlags: 0
@@ -722,7 +725,7 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: 3f8b457aa451d9c4a9e51da9e8fbcce8, type: 2}
+  - {fileID: 2100000, guid: 6b24683f2a9147649a6bf3fe8c22b9d4, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1233,7 +1236,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 7a2ad49f2bff5ef448075575029cbcb6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3f8b457aa451d9c4a9e51da9e8fbcce8, type: 2}
+      objectReference: {fileID: 2100000, guid: 6b24683f2a9147649a6bf3fe8c22b9d4, type: 2}
     - target: {fileID: 9500000, guid: 7a2ad49f2bff5ef448075575029cbcb6, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1446,6 +1449,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 141166993}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!95 &705143941
 Animator:
   m_ObjectHideFlags: 0
@@ -1606,6 +1610,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 705143938}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!95 &724227879
 Animator:
   m_ObjectHideFlags: 0
@@ -1755,7 +1760,7 @@ AudioSource:
   m_GameObject: {fileID: 764027148}
   m_Enabled: 1
   serializedVersion: 3
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: aa5811d86c852264685317834350a239, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2559,6 +2564,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 1720175346}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!95 &1465828912
 Animator:
   m_ObjectHideFlags: 0
@@ -2929,6 +2935,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 2095367463}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!95 &1720175349
 Animator:
   m_ObjectHideFlags: 0
@@ -3366,6 +3373,7 @@ MonoBehaviour:
   activeAtStart: 0
   nextCard: {fileID: 51319426}
   camScript: {fileID: 0}
+  pageturn: {fileID: 764027152}
 --- !u!82 &2095367469
 AudioSource:
   m_ObjectHideFlags: 0
