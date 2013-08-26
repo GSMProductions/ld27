@@ -17,7 +17,10 @@ public class LDInputControler : MonoBehaviour {
 
 		if(global.GetComponent<clock>().who == clock.turn.player)
 			{
-			motor.canControl = true;
+			if(GetComponent<inventoryControl>().guiInventory.guiTexture.enabled)
+				motor.canControl = false;
+			else
+				motor.canControl = true;
 			}
 		else
 			{
