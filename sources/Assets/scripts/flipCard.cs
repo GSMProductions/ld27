@@ -8,6 +8,7 @@ public class flipCard : MonoBehaviour {
 	public bool activeAtStart = false;
 	public GameObject nextCard = null;
 	public introCamera camScript = null;
+	public AudioSource pageturn = null;
 
 	// Use this for initialization
 	void Start () {
@@ -41,6 +42,9 @@ public class flipCard : MonoBehaviour {
 
 
 	void Flip() {
+		if (pageturn) {
+			pageturn.Play();
+		}
 		audio.Stop();
 		if (nextCard != null) {
 			nextCard.SetActive(true);
