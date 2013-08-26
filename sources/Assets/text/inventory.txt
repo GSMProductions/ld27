@@ -1,0 +1,6 @@
+key1;First Key;This card seems to be a key. It must open something...
+medfile_day1;Medical file Day 1;A medical file!|I should read it, perhaps I'll understand what happened to me...|(Click on <space> to read)
+medfile_day5;Medical file Day 5;Another file...|Hope it will give me some information.|(Click on <space> to read)
+medfile_day12;Medical file Day 12;This file is marked day 12...|(Click on <space> to read)
+medfile_day89;Medical file Day 89;Oh my god, this file is one of the last! But it's covered in blood...|(Click on <space> to read)
+torch;Toarch;This will allow you to see where you're going...|It's so dark in here...
