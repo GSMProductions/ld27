@@ -1,38 +1,13 @@
 fileFormatVersion: 2
-guid: 175328cab5143494383d11db46ac0060
+guid: b58bc5c237206734f8820c529638062f
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
-    100002: compresse
-    100004: scalpel
-    100006: scalpel_001
-    100008: scalpel_002
-    100010: table_instruments_sang
     400000: //RootNode
-    400002: compresse
-    400004: scalpel
-    400006: scalpel_001
-    400008: scalpel_002
-    400010: table_instruments_sang
     2300000: //RootNode
-    2300002: compresse
-    2300004: scalpel
-    2300006: scalpel_001
-    2300008: scalpel_002
-    2300010: table_instruments_sang
     3300000: //RootNode
-    3300002: compresse
-    3300004: scalpel
-    3300006: scalpel_001
-    3300008: scalpel_002
-    3300010: table_instruments_sang
-    4300000: table_instrugments
-    4300002: compresse
-    4300004: scalpel_002
-    4300006: scalpel_001
-    4300008: scalpel
-    4300010: table_instruments_sang
+    4300000: bakster
     7400000: Default Take
     9500000: //RootNode
   materials:
