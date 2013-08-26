@@ -23,12 +23,7 @@ public class inventoryControl : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		SetVisible(false);
-		inv.Add("torch");
-		inv.Add("medfile_day12");
-		inv.Add("key1");
-		inv.Add("medfile_day1");
-		inv.Add("medfile_day89");
-		inv.Add("medfile_day5");
+		add("torch");
 
 		string text;
 
@@ -194,10 +189,16 @@ public class inventoryControl : MonoBehaviour
 
 		guiText.guiText.text = getName(inv[index])+"\n\n"+getDescription(inv[index]);
 
-		guiItem[0].guiTexture.texture = pictures[getIndexTexture(inv[up_index])];
 		guiItem[1].guiTexture.texture = pictures[getIndexTexture(inv[index])];
-		guiItem[2].guiTexture.texture = pictures[getIndexTexture(inv[down_index])];
-		guiItem[3].guiTexture.texture = pictures[getIndexTexture(inv[down_index2])];
+
+		if(inv.Count>3)
+			guiItem[0].guiTexture.texture = pictures[getIndexTexture(inv[up_index])];
+		
+		if(inv.Count>1)
+			guiItem[2].guiTexture.texture = pictures[getIndexTexture(inv[down_index])];
+		
+		if(inv.Count>2)
+			guiItem[3].guiTexture.texture = pictures[getIndexTexture(inv[down_index2])];
 
 		if(getAction(inv[index])>-1)
 			guiFull.guiTexture.texture = fullPictures[getAction(inv[index])];
@@ -208,10 +209,13 @@ public class inventoryControl : MonoBehaviour
 	public bool isInInventory(string code)
 		{
 		int index = -1;
-		for(int i=0;i<description.Count;i+=3)
+		for(int i=0;i<inv.Count;i+=1)
 			{
-			if(code == description[i])
+			if(code == inv[i])
+				{
+				Debug.Log(code);
 				index =i;
+				}
 			}
 		if(index == -1)
 			return false;
@@ -222,6 +226,8 @@ public class inventoryControl : MonoBehaviour
 	public void add(string code)
 		{
 		inv.Add(code);
+		inventoryIndex = inv.Count-1;
+		moveInventory(0);
 		}
 	}
 
