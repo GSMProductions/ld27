@@ -1,14 +1,20 @@
 fileFormatVersion: 2
-guid: 7a2ad49f2bff5ef448075575029cbcb6
+guid: a69b93e77adbbcc4c9bca072f16afa1e
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
+    100002: armoire_open
+    100004: towels
     400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Plane
-    6400000: //RootNode
+    400002: armoire_open
+    400004: towels
+    2300000: armoire_open
+    2300002: towels
+    3300000: armoire_open
+    3300002: towels
+    4300000: towels
+    4300002: armoire_open
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -29,7 +35,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

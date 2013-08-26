@@ -1,14 +1,25 @@
 fileFormatVersion: 2
-guid: 7a2ad49f2bff5ef448075575029cbcb6
+guid: 96cc8c3acdd737043852121a79354e89
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Plane
-    6400000: //RootNode
+    100000: boite_metal
+    100002: medocs_002
+    100004: medocs_003
+    100006: //RootNode
+    400000: boite_metal
+    400002: medocs_002
+    400004: medocs_003
+    400006: //RootNode
+    2300000: boite_metal
+    2300002: medocs_002
+    2300004: medocs_003
+    3300000: boite_metal
+    3300002: medocs_002
+    3300004: medocs_003
+    4300000: medocs_003
+    4300002: medocs_002
+    4300004: boite_metal
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -29,7 +40,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
