@@ -16,6 +16,7 @@ ModelImporter:
     100020: Cylinder_007
     100022: //RootNode
     100024: Cylinder_000
+    100026: Bed
     400000: Bed_end
     400002: Cube
     400004: Cube_001
@@ -29,6 +30,7 @@ ModelImporter:
     400020: Cylinder_007
     400022: //RootNode
     400024: Cylinder_000
+    400026: Bed
     2300000: Bed_end
     2300002: Cube
     2300004: Cube_001
@@ -41,6 +43,7 @@ ModelImporter:
     2300018: Cylinder_006
     2300020: Cylinder_007
     2300022: Cylinder_000
+    2300024: Bed
     3300000: Bed_end
     3300002: Cube
     3300004: Cube_001
@@ -53,6 +56,7 @@ ModelImporter:
     3300018: Cylinder_006
     3300020: Cylinder_007
     3300022: Cylinder_000
+    3300024: Bed
     4300000: Cylinder_007
     4300002: Cylinder_006
     4300004: Cylinder_005
@@ -65,6 +69,7 @@ ModelImporter:
     4300018: Cube_001
     4300020: Cube
     4300022: Cylinder_000
+    4300024: Bed
     6400000: Bed_end
     6400002: Cube
     6400004: Cube_001
@@ -76,6 +81,7 @@ ModelImporter:
     6400016: Cylinder_005
     6400018: Cylinder_006
     6400020: Cylinder_007
+    6400022: Bed
     7400000: Default Take
     9500000: //RootNode
   materials:
