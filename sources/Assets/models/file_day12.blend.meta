@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: 7cb587263319ef54a93460a2be8282ad
+guid: 9ddece00f22692543a25b679b0f3bb72
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
-    100002: desk
-    100004: sous-desk
     400000: //RootNode
-    400002: desk
-    400004: sous-desk
-    2300000: desk
-    2300002: sous-desk
-    3300000: desk
-    3300002: sous-desk
-    4300000: sous-desk
-    4300002: desk
-    6400000: desk
-    6400002: sous-desk
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: file_day12
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -37,7 +28,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
