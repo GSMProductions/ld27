@@ -7,6 +7,7 @@ public class flipCard : MonoBehaviour {
 	public bool isFlipping = false;
 	public bool activeAtStart = false;
 	public GameObject nextCard = null;
+	public introCamera camScript = null;
 
 	// Use this for initialization
 	void Start () {
@@ -17,6 +18,19 @@ public class flipCard : MonoBehaviour {
 	void Update () {
 		if (isFlipping) {
 			transform.Rotate(Time.deltaTime*100, 0, 0);
+			if (transform.eulerAngles.x < 300 && transform.eulerAngles.x > 0 ) {
+				hasFlipped = true;
+				isFlipping = false;
+				if (nextCard != null) {
+					nextCard.audio.Play();
+				}
+				gameObject.SetActive(false);
+				if (camScript != null) {
+					camScript.moving = true;
+				}
+			}
+
+
 		}
 	}
 
@@ -27,10 +41,9 @@ public class flipCard : MonoBehaviour {
 
 
 	void Flip() {
+		audio.Stop();
 		if (nextCard != null) {
 			nextCard.SetActive(true);
-			audio.Stop();
-			nextCard.audio.Play();
 		}
 		if (!hasFlipped) {
 			isFlipping = true;
