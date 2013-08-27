@@ -33,7 +33,7 @@ public class menuButton : MonoBehaviour {
 		//Debug.Log(mousepos);
 		if (currentState == menuStates.Main) {
 			if (Input.GetMouseButtonDown(0) && rectPlay.Contains(mousepos)) {
-				Debug.Log("Play");
+				Application.LoadLevel ("floor1");
 			} else if (Input.GetMouseButtonDown(0) && rectQuit.Contains(mousepos)) {
 				Application.Quit();			
 			} else if (Input.GetMouseButtonDown(0) && rectCredits.Contains(mousepos)) {
