@@ -23,9 +23,9 @@ public class startingCutscene : MonoBehaviour {
 		lastSequence = 0;
 		timeSinceStart = 0.0f;
 		timer.enabled = false;
-		hero.enabled = false;
-		heroLook.enabled=false;
-		cameraLook.enabled = false;
+		//hero.enabled = false;
+		//heroLook.enabled=false;
+		//cameraLook.enabled = false;
 		subs.GetComponent<subtitles>().display("ecran_noir",9.0f);
 		sfx[0].Play();
 		CameraFade.StartAlphaFade( Color.black, true, 10f, 2f, () => { } );
@@ -67,8 +67,8 @@ public class startingCutscene : MonoBehaviour {
 			subs.GetComponent<subtitles>().display("devant_fenetre",16.0f);
 			sfx[4].Play();
 			lastSequence = 6;
-			timer.enabled = true;
-			timer.running = true;
+			//timer.enabled = true;
+			//timer.running = true;
 
 		}
 

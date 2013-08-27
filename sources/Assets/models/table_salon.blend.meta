@@ -32,6 +32,11 @@ ModelImporter:
     4300004: magazine1
     4300006: magazine4
     4300008: magazine3
+    6400000: Cube
+    6400002: magazine1
+    6400004: magazine2
+    6400006: magazine3
+    6400008: magazine4
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -52,7 +57,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

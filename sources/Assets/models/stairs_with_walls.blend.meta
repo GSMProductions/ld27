@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 26d776a2cb8b2184d9c182edcf2d5da4
+guid: a3d2661ecf578084f9310f91927edb95
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -7,8 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: chaises_attente
-    6400000: //RootNode
+    4300000: stairs
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -29,7 +28,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

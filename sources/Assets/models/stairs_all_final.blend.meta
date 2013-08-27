@@ -4,11 +4,41 @@ ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
+    100002: mur_avec_trou
+    100004: mur_avec_trou_001
+    100006: mur_avec_trou_002
+    100008: murs
+    100010: stairs
     400000: //RootNode
+    400002: mur_avec_trou
+    400004: mur_avec_trou_001
+    400006: mur_avec_trou_002
+    400008: murs
+    400010: stairs
     2300000: //RootNode
+    2300002: mur_avec_trou
+    2300004: mur_avec_trou_001
+    2300006: mur_avec_trou_002
+    2300008: murs
+    2300010: stairs
     3300000: //RootNode
+    3300002: mur_avec_trou
+    3300004: mur_avec_trou_001
+    3300006: mur_avec_trou_002
+    3300008: murs
+    3300010: stairs
     4300000: Cube_005
+    4300002: mur_avec_trou_002
+    4300004: mur_avec_trou_001
+    4300006: mur_avec_trou
+    4300008: murs
+    4300010: stairs
     6400000: //RootNode
+    6400002: mur_avec_trou
+    6400004: mur_avec_trou_001
+    6400006: mur_avec_trou_002
+    6400008: murs
+    6400010: stairs
     7400000: Default Take
     9500000: //RootNode
   materials:
