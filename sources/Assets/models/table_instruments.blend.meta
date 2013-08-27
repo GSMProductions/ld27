@@ -33,11 +33,6 @@ ModelImporter:
     4300006: scalpel_001
     4300008: scalpel
     4300010: table_instruments_sang
-    6400000: compresse
-    6400002: scalpel
-    6400004: scalpel_001
-    6400006: scalpel_002
-    6400008: table_instruments_sang
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -58,7 +53,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

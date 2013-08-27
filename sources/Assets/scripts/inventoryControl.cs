@@ -157,6 +157,8 @@ public class inventoryControl : MonoBehaviour
 				return 4;
 			if ( code == "torch")
 				return 5;
+			if ( code == "key2")
+				return 0;
 			
 		return -1;
 		}

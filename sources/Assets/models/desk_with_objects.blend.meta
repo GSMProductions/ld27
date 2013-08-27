@@ -35,12 +35,6 @@ ModelImporter:
     4300006: machincuir
     4300008: sous-desk
     4300010: desk
-    6400000: bic
-    6400002: bic_001
-    6400004: desk
-    6400006: machincuir
-    6400008: porte_bic
-    6400010: sous-desk
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -61,7 +55,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

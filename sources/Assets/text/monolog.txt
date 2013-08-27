@@ -1,9 +1,10 @@
+#REVEIL;
 ecran_noir;Hmmm.. where.. oh my head.. is this.. is this my room..? So dark in here..
 fade_in;Let's see, I think had a reading lamp over here.
-lumiere_allume;It is my room.. but what happened here? Everything looks.. messed up.|I feel kinda weird but.. I think I can walk. I'll take a look around.
-sortie_chambre;What the hell.. What is wrong with this place..|It looks like it's been abandonned for years! But.. no way..
+lumiere_allume;It is my room.. but what happened here? Everything looks.. messed up. I feel kinda weird but.. I think I can walk. I'll take a look around.
+sortie_chambre;What the hell.. What is wrong with this place.. It looks like it's been abandonned for years! But.. no way..
 coté_fenetre;Wait... I think I heard something over there...
-devant_fenetre;What... oh god! What is this thing.. This is wrong! This.. I have to get out of here!|But let's be quiet, I don't want to attract the attention of that.. thing..
+devant_fenetre;What... oh god! What is this thing.. This is wrong! This.. I have to get out of here! But let's be quiet, I don't want to attract the attention of that.. thing..
 #DIZZINESS;
 lumiere_vive_1;Ah! This light! Need to get away from it!
 #ACCES;
