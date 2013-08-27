@@ -23,9 +23,10 @@ public class subtitles : MonoBehaviour {
 				{
 				
 				code.Add(t[0]);
-				text.Add(t[1]);
+				text.Add(t[1].Replace("|","\n"));
 				}
 			}
+		display("ecran_noir",10.0f);
 
 	
 	}

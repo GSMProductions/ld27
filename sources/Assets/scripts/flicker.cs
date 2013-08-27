@@ -26,4 +26,8 @@
     public void TurnOff() {
       light.enabled = false;
     }
+
+    public void TurnOn() {
+      light.enabled = true;
+    }
 }

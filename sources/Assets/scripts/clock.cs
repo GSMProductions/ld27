@@ -4,6 +4,7 @@ using System.Collections;
 public class clock : MonoBehaviour {
 
 	public  float time = 10f;
+	public 	bool running = false;
 
 	private float timer = 0.0f;
 	public enum turn
@@ -21,15 +22,17 @@ public class clock : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (running) {
 
-		float dt = Time.deltaTime;
-		timer += dt;
+			float dt = Time.deltaTime;
+			timer += dt;
 
-		if (timer >= time)
-			{
-			timer = 0f;
-			switchTurn();
-			}
+			if (timer >= time)
+				{
+				timer = 0f;
+				switchTurn();
+				}
+		}
 	}
 
 	private void switchTurn()
