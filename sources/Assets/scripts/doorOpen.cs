@@ -40,6 +40,10 @@ public class doorOpen : MonoBehaviour {
 					locked = false;
 					opened = true;
 					}
+				else
+					{
+					GameObject.Find("subtitle GUI").GetComponent<subtitles>().display("porte_fermee_clef",3f);
+					}
 				}
 			else
 				if(opened==false)
